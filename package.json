@@ -1,0 +1,31 @@
+{
+	"name": "full-stack-blog",
+	"version": "1.0.0",
+	"description": "simple blog",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/VitalGol/Full-Stack-Blog.git"
+	},
+	"keywords": [
+		"blog",
+		"nodejs",
+		"fullstack"
+	],
+	"author": "Vitaly",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/VitalGol/Full-Stack-Blog/issues"
+	},
+	"homepage": "https://github.com/VitalGol/Full-Stack-Blog#readme",
+	"dependencies": {
+		"express": "^4.16.4"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.10"
+	}
+}
